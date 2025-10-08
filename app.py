@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return '<h1>UVA SDS GPT</h1><p>Flask app is running!</p>'
+    return '<h1>UVA SDS GPT</h1>'
 
 @app.route('/api/health')
 def health():
